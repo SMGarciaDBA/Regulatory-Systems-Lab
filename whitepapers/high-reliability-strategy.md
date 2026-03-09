@@ -87,6 +87,7 @@ C --> C2
 C --> C3
 C --> C4
 ```
+*Figure 1. Conceptual model linking High Reliability Organization principles to strategic system design and reliability outcomes. Adapted from Weick & Sutcliffe (2001, 2007).*
 ---
 
 # 2. High Reliability Organizations
