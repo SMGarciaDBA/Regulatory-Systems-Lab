@@ -385,6 +385,50 @@ E3[Institutional Learning]
 E --> A
 ```
 *Figure 2. Regulatory Governance Loop linking operational events, strategic adaptation, and regulatory oversight in high reliability infrastructure systems.*
+
+## Conceptual Model: Reliability Escalation Model
+
+```mermaid
+flowchart LR
+
+A[Weak Signals]
+A1[Small anomalies]
+A2[Minor deviations]
+A3[Near-miss patterns]
+
+A --> B[Near Misses]
+B --> C[Operational Incidents]
+C --> D[Major Failure Event]
+D --> E[Regulatory Intervention]
+E --> F[Organizational Reform]
+F --> G[Renewed Operations]
+
+A1 --> A
+A2 --> A
+A3 --> A
+
+E1[Investigation]
+E2[Enforcement Action]
+E3[Mandated Corrective Measures]
+
+E --> E1
+E --> E2
+E --> E3
+
+F1[Governance Changes]
+F2[Control Redesign]
+F3[Strategic Reprioritization]
+F4[Resilience Investment]
+
+F --> F1
+F --> F2
+F --> F3
+F --> F4
+
+G --> A
+```
+*Figure 3. Reliability Escalation Model showing how weak signals can accumulate into near misses, incidents, major failures, and eventual regulatory intervention, followed by organizational reform and renewed operations.*
+
 ---
 
 # 7. Conclusion
