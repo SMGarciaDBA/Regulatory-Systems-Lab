@@ -314,7 +314,77 @@ Strategic planning processes should therefore incorporate:
 - institutional learning from incidents and enforcement actions  
 
 These practices align strategic systems with the reliability requirements of critical infrastructure organizations.
+## Conceptual Model: Regulatory Governance Loop
 
+```mermaid
+flowchart LR
+
+A[Operational Events]
+
+A1[Normal Operations]
+A2[Anomalies]
+A3[Near Misses]
+A4[System Failures]
+
+A --> A1
+A --> A2
+A --> A3
+A --> A4
+
+A1 --> B
+A2 --> B
+A3 --> B
+A4 --> B
+
+B[Weak Signal Detection]
+
+B1[Operational Reporting]
+B2[Incident Analysis]
+B3[Risk Monitoring]
+
+B --> B1
+B --> B2
+B --> B3
+
+B1 --> C
+B2 --> C
+B3 --> C
+
+C[Strategic Adaptation]
+
+C1[Strategy Review]
+C2[Resource Reallocation]
+C3[Operational Reforms]
+C4[Resilience Investments]
+
+C --> C1
+C --> C2
+C --> C3
+C --> C4
+
+C1 --> D
+C2 --> D
+C3 --> D
+C4 --> D
+
+D[Regulatory Oversight]
+
+D1[Compliance Monitoring]
+D2[Investigations]
+D3[Enforcement Actions]
+D4[Policy Updates]
+
+D --> E
+
+E[Reliability Outcomes]
+
+E1[Improved System Resilience]
+E2[Reduced Catastrophic Risk]
+E3[Institutional Learning]
+
+E --> A
+```
+*Figure 2. Regulatory Governance Loop linking operational events, strategic adaptation, and regulatory oversight in high reliability infrastructure systems.*
 ---
 
 # 7. Conclusion
