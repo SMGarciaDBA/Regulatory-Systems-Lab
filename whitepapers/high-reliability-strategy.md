@@ -30,6 +30,63 @@ Research on High Reliability Organizations (HROs), particularly the work of Karl
 
 Rather than attempting to eliminate uncertainty, HROs design organizational systems that continuously detect, interpret, and respond to unexpected events.
 
+## Conceptual Model: High Reliability Strategy System
+
+```mermaid
+flowchart LR
+
+A[High Reliability Organization Principles]
+
+A1[Preoccupation with Failure]
+A2[Reluctance to Simplify]
+A3[Sensitivity to Operations]
+A4[Commitment to Resilience]
+A5[Deference to Expertise]
+
+A --> A1
+A --> A2
+A --> A3
+A --> A4
+A --> A5
+
+A1 --> B
+A2 --> B
+A3 --> B
+A4 --> B
+A5 --> B
+
+B[Strategic System Design]
+
+B1[Weak Signal Detection]
+B2[Operational Intelligence in Strategy]
+B3[Distributed Decision Authority]
+B4[Scenario Planning & Strategic Probes]
+B5[Learning from Near Misses]
+
+B --> B1
+B --> B2
+B --> B3
+B --> B4
+B --> B5
+
+B1 --> C
+B2 --> C
+B3 --> C
+B4 --> C
+B5 --> C
+
+C[Reliability Outcomes]
+
+C1[Adaptive Strategy]
+C2[Operational Resilience]
+C3[Rapid Response to Disruptions]
+C4[Reduced Catastrophic Failure Risk]
+
+C --> C1
+C --> C2
+C --> C3
+C --> C4
+```
 ---
 
 # 2. High Reliability Organizations
