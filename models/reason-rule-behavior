@@ -1,0 +1,21 @@
+```mermaid
+flowchart TD
+
+A[Rule-Based Behavior] --> B{Applicable Rule?}
+
+B -->|Yes| C{Correct Rule?}
+B -->|No| D[Knowledge-Based Behavior]
+
+C -->|Yes| E{Rule Followed?}
+C -->|No| F[Rule Selection Mistake]
+
+E -->|Yes| G[Correct Performance]
+E -->|No| H[Violation]
+
+H --> I[Routine]
+H --> J[Situational]
+H --> K[Exceptional]
+
+classDef violation fill:#ffdddd,stroke:#aa0000
+class H,I,J,K violation
+```
