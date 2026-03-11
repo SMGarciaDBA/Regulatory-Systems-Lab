@@ -4,7 +4,7 @@ flowchart TD
 A[Rule-Based Behavior] --> B{Was the task or situation covered by procedures or training?}
 
 B -->|Yes| C{Was the correct rule chosen?}
-B -->|No| D[Knowledge-Based Behavior]
+B -->|No| D[Knowledge-Based Behavior, improvisation]
 
 C -->|Yes| E{Was the rule followed?}
 C -->|No| F[Rule Selection Mistake]
