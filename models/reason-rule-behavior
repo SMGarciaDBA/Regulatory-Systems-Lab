@@ -1,7 +1,7 @@
 ```mermaid
 flowchart TD
 
-A[Rule-Based Behavior] --> B{Applicable Rule?}
+A[Was the task or situation covered by procedures or training?] --> B{Applicable Rule?}
 
 B -->|Yes| C{Correct Rule?}
 B -->|No| D[Knowledge-Based Behavior]
