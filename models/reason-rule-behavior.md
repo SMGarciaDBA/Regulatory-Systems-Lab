@@ -16,6 +16,10 @@ G --> J{Was the bad procedure followed?}
 J -->|Yes| K[Mispliance]
 J -->|No| L[Correct Violation]
 
+I--> |Yes| M[Rule-based mistake: misapplication of a good rule]
+I --> |No| N{Was some informal work practice followed?}
 
+N --> |Yes| O[Skill-based slip or lapse]
+N --> |No| P[Misvention]
 
 ```
