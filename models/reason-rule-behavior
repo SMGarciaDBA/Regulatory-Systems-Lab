@@ -1,4 +1,4 @@
 ```mermaid
 flowchart TD
-A[Was the task or situation covered by procedures or training?]
+A[Rule-Based Behavior] --> B{Was the task or situation covered by procedures or training?}
 ```
