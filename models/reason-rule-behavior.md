@@ -12,6 +12,9 @@ C --> |No| G(Latent organizational condition leading to lack of trust in procedu
 F --> |Yes| H[Correct and successful performance]
 F --> |No| I{Was some other formal procedure followed?}
 
+G --> J{Was the bad procedure followed?}
+J -->|Yes| K[Mispliance]
+J -->|No| L[Correct Violation]
 
 
 
