@@ -1,21 +1,16 @@
-```mermaid
 flowchart TD
 
-A[Was the task or situation covered by procedures or training?] --> B{Applicable Rule?}
+A[Rule-Based Behavior] --> B{Is there an applicable rule?}
 
-B -->|Yes| C{Correct Rule?}
+B -->|Yes| C{Was the correct rule chosen?}
 B -->|No| D[Knowledge-Based Behavior]
 
-C -->|Yes| E{Rule Followed?}
+C -->|Yes| E{Was the rule followed?}
 C -->|No| F[Rule Selection Mistake]
 
-E -->|Yes| G[Correct Performance]
-E -->|No| H[Violation]
+E -->|Yes| G[Correct Rule-Based Performance]
+E -->|No| H[Rule Violation]
 
-H --> I[Routine]
-H --> J[Situational]
-H --> K[Exceptional]
-
-classDef violation fill:#ffdddd,stroke:#aa0000
-class H,I,J,K violation
-```
+H --> I[Routine Violation]
+H --> J[Situational Violation]
+H --> K[Exceptional Violation]
