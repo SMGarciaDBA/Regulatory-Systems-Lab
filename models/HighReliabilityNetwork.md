@@ -1,18 +1,19 @@
+```mermaid
 flowchart TB
     %% Main container
     subgraph HRN["California High Reliability Network (Restructured Electricity Provision)"]
         direction TB
 
         %% MARKET LAYER
-        subgraph M["Market Layer"]
+        subgraph M["Market Layer (Represents Flow of Market Transactions"]
             direction LR
             EPOS["Electric Provider of Service (EPOS)\nUtility Trading / Scheduling"]
             ISOM["ISO Markets\n(Day-Ahead / Real-Time)"]
-            TF["Independent Trading Floor\n(Market Participants)"]
+            TF["Generator's Trading Floor\n(Market Participants)"]
         end
 
         %% TECHNOLOGY LAYER
-        subgraph T["Technology Layer"]
+        subgraph T["Technology Layer (Represents Flow of Electricity on the Grid"]
             direction LR
             TOC["Transmission Operations Center (TOC)\nUtility Grid Operations"]
             GD["Generation Dispatcher (GD)\nISO Real-Time Balancing"]
@@ -39,3 +40,4 @@ flowchart TB
         ISOM -. Dispatch signals .-> GD
         TF -. Market commitments .-> GP
     end
+```
