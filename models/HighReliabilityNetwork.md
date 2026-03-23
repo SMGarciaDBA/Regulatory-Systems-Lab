@@ -12,7 +12,7 @@ This model captures that structure and highlights where reliability is actually 
 
 ## Diagram
 
-![California High Reliability Network](../images/hrn_california_network.png)
+![California High Reliability Network](https://github.com/SMGarciaDBA/Regulatory-Systems-Lab/blob/main/models/California%20High%20Reliability%20Network.png)
 
 *Adapted from Schulman et al. (2004), Figure 1.*
 
