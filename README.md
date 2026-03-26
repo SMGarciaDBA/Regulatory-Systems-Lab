@@ -17,6 +17,7 @@ This repository houses research, conceptual models, and datasets focused on regu
 - Multi-layer compliance signal modeling
 - Post-catastrophic regulatory drift
 - Governance architecture design
+- Regulator and Firm Postures
 
 ---
 
@@ -26,7 +27,18 @@ This repository houses research, conceptual models, and datasets focused on regu
 /models  
 /datasets  
 /essays  
+/images
 
 ---
 
+## 🔷 Core Models
+
+### Regulatory Evolution Framework
+
+[View Model →](models/regulatory_evolution_framework.md)
+
+A foundational model showing how regulatory systems evolve from rules to learning-based systems.
+
 This repository is part of an ongoing research and thought leadership initiative in regulatory systems strategy.
+
+---
