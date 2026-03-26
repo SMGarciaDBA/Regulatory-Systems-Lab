@@ -35,7 +35,7 @@ This repository houses research, conceptual models, and datasets focused on regu
 
 ### Regulatory Evolution Framework
 
-[View Model →](models/regulatory_evolution_framework.md)
+[View Model →](models/regulatory-evolution-framework.md)
 
 A foundational model showing how regulatory systems evolve from rules to learning-based systems.
 
