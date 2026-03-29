@@ -1,6 +1,6 @@
 # Model Explaining Compliance Behavior  
 **Reinterpreting Nielsen & Parker (2012) Through a Systems Lens**
-![Compliance Behavior Model] (models/compliance-behavior-model.png)
+![Compliance Behavior Model](./figure.png)
 *Figure: Model explaining compliance behavior adapted from Nielsen & Parker (2012), with added operational detail on decision-making, implementation capability, and institutional effects.*
 ---
 
